@@ -1,0 +1,84 @@
+body {
+    background-color: #2f363e;
+}
+  
+
+.container-fluid {
+    width: 90%;
+}
+
+.navbar {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.me-2 {
+    width: 45% !important;
+    border-radius: 8px;
+}
+
+.notes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+}
+  
+.card-body {
+    position: relative;
+}
+
+.card-text {
+    padding-bottom: 1rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.addNoteContainer {
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+.button_cancel {
+    float: right;
+}
+
+.input_title {
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    margin-bottom: 6px;
+}
+
+.input_descp {
+    border: none;
+    resize: none;
+}
+
+.button_save .button_cancel{
+    border-radius: 10px;
+}
+
+.card {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.card_btns {
+    border-radius: 50%;
+    padding: 7px;
+    display: inline-block;
+}
